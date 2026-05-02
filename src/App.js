@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Header';
+<<<<<<< HEAD
 import ListeLignes from './ListeLignes';
 import Footer from './Footer';
 
@@ -27,3 +28,20 @@ function App() {
 }
 
 export default App;
+=======
+
+function App() {
+    return (
+        <div className="App">
+            <Header />
+            <main className="contenu">
+                <p>Bienvenue ! Cette application vous permet de trouver les meilleures lignes de transport en commun à Dakar.</p>
+            </main>
+        </div>
+    );
+}
+
+//const App = () => <div className="App">a </div>;
+export default App;
+  
+>>>>>>> 5c3a09462e488db665e1d62f36914a8e53c6c715
