@@ -1,0 +1,85 @@
+.detail-ligne {
+  background-color: #ffffff;
+  border: 2px solid #0a6e31;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 16px;
+  animation: slideDown 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Animation */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.detail-titre {
+  color: #0a6e31;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.detail-info {
+  color: #7f8c8d;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+}
+
+.detail-arrets h4 {
+  color: #2c3e50;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+/* Liste */
+.detail-liste {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detail-arret {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.2s ease;
+}
+
+.detail-arret:hover {
+  background-color: #f9f9f9;
+}
+
+.detail-arret:last-child {
+  border-bottom: none;
+}
+
+/* Numéro */
+.arret-numero {
+  background-color: #0a6e31;
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+/* Nom arrêt */
+.arret-nom {
+  color: #2c3e50;
+  font-size: 0.95rem;
+}
