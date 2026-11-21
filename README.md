@@ -1,4 +1,4 @@
-# 🚌 SenTransport — Lignes de bus Dakar Dem Dikk
+# SenTransport — Lignes de bus Dakar Dem Dikk
 
 ![React](https://img.shields.io/badge/React_19-20232a?style=flat-square&logo=react&logoColor=61dafb) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white)
 
